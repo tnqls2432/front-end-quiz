@@ -1,0 +1,13 @@
+*{margin:0;}
+#wrap{width:1200px; height:1000px; background-color: aqua;}
+.top{width:1200px; height:100px; background-color:burlywood;}
+.logo{width:200px; background-color: darkblue;}
+.menu{width:1000px; background-color: darkviolet;}
+
+.mid{width:1200px; height:900px; background-color: crimson;}
+article{width:1200px; height:900px; background-color: green;}
+
+.bottom{width:1200px; height:100px; background-color: chartreuse;}
+address{width:1200px; height:100px; background-color:crimson;}
+
+.flex{display:flex;}
