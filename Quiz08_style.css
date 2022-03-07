@@ -1,0 +1,18 @@
+*{margin: auto;}
+#wrap{width:1200px; height:1000px; background-color: aqua;}
+header{width:1200px; height:100px; background-color: brown;}
+section{width:1200px; height:800px; background-color: chartreuse;}
+.content{width:600px; height:900px; background-color: chocolate;}
+.right{width:600px; height:900px; background-color:darkslateblue;}
+.article1{width:600px; height:450px; background-color: darkblue;}
+.article2{width:600px; height:450px; background-color: darkgoldenrod;}
+
+
+footer{Width:1200px; height:100px; background-color: black;}
+.logo{width:300px; height:100px; background-color: crimson;}
+.menu{width:900px; height:100px; background-color: blue;}
+.footer-logo{width:200px; height:100px; background-color: aquamarine;}
+.copyr{width:800px; height:100px; background-color: cadetblue;}
+
+
+.flex{display:flex;}
