@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>레이아웃에 내용 채우기</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Quiz12_style.css" type="text/css">
+
+        <!-- bootstrap CDN link -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <header class="d-flex">
+                <nav class="logo col-3 d-flex justify-content-center align-items-center">
+                    <h3 class="color"><div class="logo-font font-weight-bold">MD택배</div></h3>
+                </nav>
+                <nav class="menu col-9 d-flex align-items-center">
+                    <ul class="nav nav-fill w-100 mt-2">
+                        <li class="nav-item"><a href="#" class="nav-link text-warning font-weight-bold">회사 소개</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-warning font-weight-bold">기업 택배</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-warning font-weight-bold">개인 택배</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-warning font-weight-bold">고객 센터</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="d-flex">
+                <article class="ar1">
+                    <img src="https://cdn.pixabay.com/photo/2012/04/12/20/29/box-30528__340.png" class="mt-5" alt="택배상자" height="700">
+                </article>
+                <aside class="as1">
+                    <div class="top d-flex justify-content-center align-items-start">
+                        <h1><div class="fos pt-5 mr-5">물류를 선도하는</div>
+                        <div class="fos pl-3 text-right font">MD택배</div>        
+                    </div>
+                    <div class="bottom">
+                    <h3>운송장 조회</h3>
+                            <input type="text" class="w-100">
+                        <div class="d-flex justify-content-end">    
+                            <button type="button" class="btn btn-info">조회</button>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+            <footer class="d-flex">
+                <div class="footer-logo col-2 d-flex justify-content-center align-items-center">
+                    <h4><div class="mt-2 ml-3">MD택배</div></h4>
+                </div>
+                <address class="add col-8 d-flex justify-content-center align-items-center">
+                    <div>
+                        Copyright © marondal 2021
+                    </div>
+                </address>
+                <div class="footer-logo col-2 d-flex justify-content-center align-items-center">
+                    <strong><div class="ml-3">고객센터:<br>
+                        02-000-0000</strong>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

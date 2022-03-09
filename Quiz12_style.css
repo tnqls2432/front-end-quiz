@@ -1,0 +1,20 @@
+*{margin:auto;}
+#wrap {width:1200px; height:1000px;}
+header {height:100px;}
+.logo {height:100px}
+.menu {height:100px;}
+.color {color:deepskyblue}
+
+section {height:800px;}
+.ar1 {width:600px; height:800px;}
+.as1 {width:600px; height:800px;}
+.font {color:aqua}
+.fos {font-size: larger;}
+
+footer {height:100px;}
+.top {height:50%;}
+.bottom {height:50%;}
+.footer-logo {height:100px;}
+.add {height:100px;}
+
+.d-flex {display:flex;}
