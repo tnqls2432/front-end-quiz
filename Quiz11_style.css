@@ -1,0 +1,14 @@
+#wrap{width:1200px; height:1000px;}
+header{height:100px;}
+.logo{background-color: blueviolet;}
+.menu{background-color: brown;}
+
+section{height:500px;}
+footer{height:80px;}
+.footer-logo{background-color: crimson;}
+.copy{height:80px; background-color: black;}
+.mid{height:50px; background-color:green; }
+.copy{width:1200px; height:80px; background-color: aqua;}
+
+
+.d-flex{display:flex}

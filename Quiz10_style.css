@@ -1,0 +1,10 @@
+*{margin:auto}
+#wrap{width:1200px; height:1000px; background-color: blue;}
+header{height:100px;}
+section{height:800px;}
+.left{width:800px; height:800px;background-color: brown;}
+.right{width:400px; height:800px; background-color: chartreuse;}
+
+footer{height:100px;}
+
+.flex{display:flex;}
