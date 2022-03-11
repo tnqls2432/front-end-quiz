@@ -1,0 +1,19 @@
+
+#wrap {width:1200px; height:1000px;}
+header {height:100px;}
+.logo {height:100px;}
+.color {color:red; font-weight: bold;}
+.info-color {color:black;}
+.nav-link:hover {color:gray}
+
+.search {height:100px;}
+.info {height:100px;}
+.co {width:1000px;}
+
+section {height:500px;}
+.left {height:500px;}
+.font-color {color:black}
+
+footer {height:100px;}
+
+.d-flex {display:flex}

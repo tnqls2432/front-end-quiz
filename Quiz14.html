@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>부트스트랩을 이용해 내용 채우기</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Quiz14_style.css" type="text/css">
+
+          <!-- bootstrap CDN link -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <header class="d-flex">
+                <nav class="logo col-2">
+                    <h1><div class="color mt-3">itube</div></h1>
+                </nav>
+                <nav class="search col-7">
+                    <div class="input-group mb-3 mt-4">
+                        <input type="text" class="form-control" placeholder="검색하세요" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <span class="input-group-text" id="basic-addon2">검색</span>
+                        </div>
+                      </div>
+                      
+                </nav>
+                <nav class="info col-3 d-flex">
+                    <ul class="nav nav-fill mr-2">
+                        <li class="nav-item"><a href="#" class="nav-link info-color mt-4 ml-4">김수빈</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link info-color mt-4 ml-4">로그아웃</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="co d-flex">
+                <article class="left col-3 d-flex align-items-start justify-content-start">
+                    <ul class="nav flex-column">
+                        <li class="nav-item font-weight-bold"><a href="#" class="nav-link font-color">추천 동영상</a></li>
+                        <li class="nav-item font-weight-bold"><a href="#" class="nav-link font-color">탐색</a></li>
+                        <li class="nav-item font-weight-bold"><a href="#" class="nav-link font-color">시청기록</a></li>
+                        <li class="nav-item font-weight-bold"><a href="#" class="nav-link font-color">나중에 볼 동영상</a></li>
+                    </ul>
+                </article>
+                <aside class="right col-9">
+                    <article class="d-flex flex-wrap justify-content-around">
+                        <div class="media-box">
+                            <img src="http://marondal.com/material/images/dulumary/web/front/bootstrap/test06_thumbnail1.jpg" alt="잇츠원 유태양">
+                            <div class="font-weight-bold">[직캠] 잇츠원 유태양 - ♬ 왕과비</div>
+                            <div class="media-info-text">N-net Ent</div>
+                            <div class="media-info-text">조회수 : 80만회 1개월전</div>
+                        </div>
+                        <div class="media-box">
+                            <img src="http://marondal.com/material/images/dulumary/web/front/bootstrap/test06_thumbnail2.jpg" alt="아이즈원 권은비">
+                            <div class="font-weight-bold">[직캠] 아이즈원 권은비 - ♬ Panorama</div>
+                            <div class="media-inf-texto">N-net Ent</div>
+                            <div class="media-info-text">조회수 : 80만회 1개월전</div>
+                        </div>
+                        <div class="media-box">
+                            <img src="http://marondal.com/material/images/dulumary/web/front/bootstrap/test06_thumbnail3.jpg" alt="스트레이 키즈 리노">
+                            <div class="font-weight-bold">[직캠] 스트레이 키즈 리노 - ♬ 미친놈</div>
+                            <div class="media-info-text">N-net Ent</div>
+                            <div class="media-info-text">조회수 : 80만회 1개월전</div>
+                        </div>
+                        <div class="media-box">
+                            <img src="http://marondal.com/material/images/dulumary/web/front/bootstrap/test06_thumbnail4.jpg" alt="아이즈원 장원영">
+                            <div class="font-weight-bold">[직캠] 아이즈원 장원영 - ♬ Panorama</div>
+                            <div class="media-info-text">N-net Ent</div>
+                            <div class="media-info-text">조회수 : 80만회 1개월전</div>
+                        </div>
+                        <div class="media-box">
+                            <img src="http://marondal.com/material/images/dulumary/web/front/bootstrap/test06_thumbnail5.jpg" alt="NCT DREAM 제노">
+                            <div class="font-weight-bold">[직캠] NCT DREAM 제노 - ♬ 맛(Hot sauce)</div>
+                            <div class="media-info-text">N-net Ent</div>
+                            <div class="media-info-text">조회수 : 80만회 1개월전</div>
+                        </div>
+                        <div class="media-box">
+                            <img src="http://marondal.com/material/images/dulumary/web/front/bootstrap/test06_thumbnail6.jpg" alt="아이즈원 미야와키 사쿠라">
+                            <div class="font-weight-bold">[직캠] 아이즈원 미야와키 사쿠라 -<br> ♬ Panorama</div>
+                            <div class="media-info-text">N-net Ent</div>
+                            <div class="media-info-text">조회수 : 80만회 1개월전</div>
+                        </div>
+                    </article>
+                </aside>
+            </section>
+            <footer class="d-flex justify-content-center align-items-center">
+                <div class="ml-5">Copyright 2021. iTube All Right Reserved.</span>
+            </footer>
+        </div>
+    </body>
+</html>
